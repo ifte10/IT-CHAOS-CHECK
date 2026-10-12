@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101128">
+  <meta name="description" content="An extremely unofficial six-step IT personality test. The Wi-Fi is down. Your dignity is next.">
+  <meta property="og:title" content="IT CHAOS CHECK™ | Your diagnosis is loading...">
+  <meta property="og:description" content="A very serious test for deeply unserious tech people. Six levels. Zero common sense.">
+  <title>IT CHAOS CHECK™ | The Helpdesk Has Questions</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="wallpaper" aria-hidden="true"><div class="orb orb-a"></div><div class="orb orb-b"></div><div class="gridlines"></div></div>
+  <div id="confetti" aria-hidden="true"></div>
+  <div class="layout">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="Restart IT Chaos Check"><span class="brand-icon">⌘</span><span>CHAOS<span class="brand-alt">.IT</span></span></a>
+      <span class="mast-mid"><span class="live-dot"></span> DEPARTMENT OF BAD DECISIONS</span>
+      <button id="sound-toggle" class="sound-btn" type="button" aria-label="Enable sound" aria-pressed="false"><span id="sound-symbol">♪</span> <span id="sound-label">SOUND OFF</span></button>
+    </header>
+
+    <main class="game" id="game">
+      <div class="game-top">
+        <div class="game-top-left"><span class="ticket-number" id="ticket-number">TICKET #000001</span><span class="tiny-separator">/</span><span class="server-label">SERVER STATUS: <strong>EMOTIONALLY UNAVAILABLE</strong></span></div>
+        <span class="step-status" id="step-status">STEP 01 / 06</span>
+      </div>
+      <div class="progress-track" role="progressbar" id="progress" aria-label="Test progress" aria-valuemin="1" aria-valuemax="6" aria-valuenow="1"><div class="progress-fill" id="progress-fill"></div></div>
+      <section class="scene" id="scene" aria-live="polite" aria-atomic="true"></section>
+      <footer class="game-bottom"><span><span class="asterisk">✳</span> NOT APPROVED BY ANY ACTUAL IT DEPARTMENT</span><span id="bottom-status">UPTIME: QUESTIONABLE</span></footer>
+    </main>
+
+    <footer class="page-footer"><span>MADE WITH ☕, PANIC & UNRESOLVED TICKETS</span><span>NO DATA COLLECTED. ONLY BAD VIBES.</span></footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
